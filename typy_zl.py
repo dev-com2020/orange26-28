@@ -2,6 +2,8 @@ zbior = "Tomek", "Michał", "Asia", "Daniel"
 zbior2 = "Tomek",
 zbior3 = 43, 55, 22.43, 11, "Tomek", 65, 55
 
+
+
 print(type(zbior))
 print(type(zbior2))
 print(zbior)
@@ -17,3 +19,6 @@ print(11 in zbior3)
 print(imie1)
 print(imie2)
 print(imie3)
+
+lista = list(zbior3)
+print(lista)
