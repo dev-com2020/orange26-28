@@ -45,15 +45,35 @@ suma_zam = 247
 # else:
 #     rabat = 0
 
-rabat = 25 if suma_zam > 100 else 0
+# rabat = 25 if suma_zam > 100 else 0
+#
+# print("SUMA:", suma_zam, "RABAT:", rabat)
+#
+# lista = [j for j in range(10) if j % 2 == 0]
+# print(lista)
+#
+lista = [j for j in range(0, 10, 2)]
+# print(lista)
+#
+# lista = []
+# for i in range(1, 10):
+#     if i % 2 == 0:
+#         lista.append(i)
+# print(lista)
 
-print("SUMA:", suma_zam, "RABAT:", rabat)
+# for cyfra in lista:
+#     if cyfra == 2:
+#         cyfra += 1
+#     print(cyfra)
 
-lista = [j for j in range(10) if j % 2 == 0]
-print(lista)
+# imiona = ["Tomek", "Asia", "Wojtek"]
+# for p in range(len(imiona)):
+#     print(p, imiona[p])
 
-lista = []
-for i in range(10):
-    if i % 2 == 0:
-        lista.append(i)
-print(lista)
+# imie = "Tomek"
+# for p in range(len(imie)):
+#     print(p, imie[p])
+
+imie = "Tomek"
+for pozycja, wartosc in enumerate(imie):
+    print(pozycja, wartosc)
