@@ -21,25 +21,25 @@
 #     podatek = 0.40
 #
 # print(f"zapłacisz {zarobki * podatek} zł")
-lista_bledow = []
-
-alert_system = 'email'
-error = 'medium'
-error_message = 'Stało się coś strasznego!'
-
-if alert_system == 'console':
-    print(error_message)
-elif alert_system == 'email':
-    if error == 'critical':
-        lista_bledow.append('critical')
-    elif error == 'medium':
-        lista_bledow.append('medium')
-    else:
-        lista_bledow.append('nieznany')
-
-print(lista_bledow)
-
-suma_zam = 247
+# lista_bledow = []
+#
+# alert_system = 'email'
+# error = 'medium'
+# error_message = 'Stało się coś strasznego!'
+#
+# if alert_system == 'console':
+#     print(error_message)
+# elif alert_system == 'email':
+#     if error == 'critical':
+#         lista_bledow.append('critical')
+#     elif error == 'medium':
+#         lista_bledow.append('medium')
+#     else:
+#         lista_bledow.append('nieznany')
+#
+# print(lista_bledow)
+#
+# suma_zam = 247
 # if suma_zam > 100:
 #     rabat = 25
 # else:
@@ -52,7 +52,7 @@ suma_zam = 247
 # lista = [j for j in range(10) if j % 2 == 0]
 # print(lista)
 #
-lista = [j for j in range(0, 10, 2)]
+# lista = [j for j in range(0, 10, 2)]
 # print(lista)
 #
 # lista = []
@@ -74,6 +74,16 @@ lista = [j for j in range(0, 10, 2)]
 # for p in range(len(imie)):
 #     print(p, imie[p])
 
-imie = "Tomek"
-for pozycja, wartosc in enumerate(imie):
-    print(pozycja, wartosc)
+# imie = "Tomek"
+# for pozycja, wartosc in enumerate(imie):
+#     print(pozycja, wartosc)
+
+ludzie = ['Tomek', 'Asia', 'Michał', 'Adam']
+wiek = [23, 24, 23, 21, 55]
+jezyk = ["Python", "Java"]
+for pozycja, osoba in enumerate(ludzie):
+    wiek_o = wiek[pozycja]
+    print(osoba, wiek_o)
+
+for osoba, wiek, progr in zip(ludzie, wiek, jezyk):
+    print(osoba, wiek, progr)
