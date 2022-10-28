@@ -41,5 +41,5 @@ from piatek import klasa1 as k1
 # dom4 = k1.Dom3(100, "zielony", 4)
 # dom4.zmien_metraz()
 
-dom5 = k1.Dom4(100, "kolorowy", 5)
-dom5.zmien_kolor()
+# dom5 = k1.Dom4(100, "kolorowy", 5)
+# dom5.zmien_kolor()

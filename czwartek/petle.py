@@ -81,6 +81,7 @@
 ludzie = ['Tomek', 'Asia', 'Michał', 'Adam']
 wiek = [23, 24, 23, 21, 55]
 jezyk = ["Python", "Java"]
+
 for pozycja, osoba in enumerate(ludzie):
     wiek_o = wiek[pozycja]
     print(osoba, wiek_o)
